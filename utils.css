@@ -1,0 +1,25 @@
+.text-center {
+    text-align: center;
+}
+
+.bg-color {
+   background: hsl(216, 12%, 54%);
+   padding: 4px;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    justify-content: center;
+    align-items: center;
+}

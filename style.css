@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Overpass', sans-serif;
+}
+
+.button {
+    padding: 20px;
+    margin: 0.3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:  hsl(0, 0%, 100%);
+}
+.row {
+    margin: 8px 0;
+    
+}
+
+.row>input {
+    outline-style: none;    
+    margin-top:7px ;
+    padding: 10px 38px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 50%;
+    border-radius: 7px;
+}
