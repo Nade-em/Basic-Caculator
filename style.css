@@ -64,3 +64,25 @@ body {
         font-size: 10px;
     }
 }
+
+@media  (max-width: 250px) {
+    /* .wrapper{
+        height: 80vh;
+        width: 100%;
+    } */
+    .container{
+       
+        width: 100%;
+        border-radius: 5px;
+    }
+    .button {
+        padding: 5px;
+        margin: 0.1px;
+        border: 2px solid black;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .row>input {
+        font-size: 5px;
+    }
+}
